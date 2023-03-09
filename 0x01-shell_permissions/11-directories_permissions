@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +rwx,o+X,g+X ./*
+find . -type d -exec chmod 755 {} \;
